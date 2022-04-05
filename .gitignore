@@ -1,0 +1,10 @@
+/.idea
+/.vscode
+/node_modules
+node_modules
+.parcel-cache
+dist
+/.pnp
+.pnp.js
+.DS_Store
+.vercel
