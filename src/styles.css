@@ -7,14 +7,17 @@
 }
 
 
-table {
-  width: 85%;
-  margin: 0 auto;
+
+table tbody tr{
+  background-color: lightblue;
 }
 
-table td{
-  border: 1px solid;
+
+table tr, table td{
+ padding: 5px;
+
 }
+
 
 table thead{
   background-color: gray;
@@ -51,13 +54,8 @@ table thead{
 }
 
 tr.archived{
-  background-color: red;
   visibility: hidden;
   height: 1px;
   display: none;
 }
 
-
-body{
-  /*background-color: lightblue;*/
-}
